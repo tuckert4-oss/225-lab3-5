@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/tuckert4'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/tuckert4-oss/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('tuckert')                                                         //<------change this
+        KUBECONFIG = credentials('tuckert4')                                                         //<------change this
     }
 
     stages {
